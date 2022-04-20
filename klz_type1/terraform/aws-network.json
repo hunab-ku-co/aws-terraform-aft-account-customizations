@@ -37,7 +37,7 @@
           "private-b": {
             "attach_to_tgw": true,
             "availability_zone": "eu-west-1b",
-            "cidr_block": "10.20.0.1/24",
+            "cidr_block": "10.20.1.0/24",
             "enable_dns64": false,
             "enable_resource_name_dns_aaaa_record_on_launch": false,
             "enable_resource_name_dns_a_record_on_launch": false,
@@ -60,7 +60,7 @@
           "public-a": {
             "attach_to_tgw": true,
             "availability_zone": "eu-west-1a",
-            "cidr_block": "10.20.0.2/24",
+            "cidr_block": "10.20.2.0/24",
             "enable_dns64": false,
             "enable_resource_name_dns_aaaa_record_on_launch": false,
             "enable_resource_name_dns_a_record_on_launch": false,
@@ -83,7 +83,7 @@
           "public-b": {
             "attach_to_tgw": true,
             "availability_zone": "eu-west-1b",
-            "cidr_block": "10.20.0.3/24",
+            "cidr_block": "10.20.3.0/24",
             "enable_dns64": false,
             "enable_resource_name_dns_aaaa_record_on_launch": false,
             "enable_resource_name_dns_a_record_on_launch": false,
