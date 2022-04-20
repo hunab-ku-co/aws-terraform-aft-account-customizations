@@ -69,10 +69,6 @@
               "route1": {
                 "destination_cidr_block": "10.0.0.0/8",
                 "transit_gateway_id": "tgw-085f17a478f26a2d2"
-              },
-              "route2": {
-                "destination_cidr_block": "0.0.0.0/0",
-                "gateway_id": "igw-0bcc9fa069b2fa754"
               }
             },
             "options": {
@@ -96,10 +92,6 @@
               "route1": {
                 "destination_cidr_block": "10.0.0.0/8",
                 "transit_gateway_id": "tgw-085f17a478f26a2d2"
-              },
-              "route2": {
-                "destination_cidr_block": "0.0.0.0/0",
-                "gateway_id": "igw-0bcc9fa069b2fa754"
               }
             },
             "options": {
