@@ -4,7 +4,7 @@
         "tags": {
           "role": "spoke"
         },
-        "cidr_block": "10.20.100.0/16",
+        "cidr_block": "10.20.0.0/22",
         "instance_tenancy": "default",
         "enable_dns_hostnames": true,
         "enable_dns_support": true,
@@ -14,7 +14,7 @@
           "private-a": {
             "attach_to_tgw": true,
             "availability_zone": "eu-west-1a",
-            "cidr_block": "10.20.100.0/24",
+            "cidr_block": "10.20.0.0/24",
             "enable_dns64": false,
             "enable_resource_name_dns_aaaa_record_on_launch": false,
             "enable_resource_name_dns_a_record_on_launch": false,
@@ -37,7 +37,7 @@
           "private-b": {
             "attach_to_tgw": true,
             "availability_zone": "eu-west-1b",
-            "cidr_block": "10.20.100.1/24",
+            "cidr_block": "10.20.0.1/24",
             "enable_dns64": false,
             "enable_resource_name_dns_aaaa_record_on_launch": false,
             "enable_resource_name_dns_a_record_on_launch": false,
@@ -60,7 +60,7 @@
           "public-a": {
             "attach_to_tgw": true,
             "availability_zone": "eu-west-1a",
-            "cidr_block": "10.20.100.2/24",
+            "cidr_block": "10.20.0.2/24",
             "enable_dns64": false,
             "enable_resource_name_dns_aaaa_record_on_launch": false,
             "enable_resource_name_dns_a_record_on_launch": false,
@@ -83,7 +83,7 @@
           "public-b": {
             "attach_to_tgw": true,
             "availability_zone": "eu-west-1b",
-            "cidr_block": "10.20.100.3/24",
+            "cidr_block": "10.20.0.3/24",
             "enable_dns64": false,
             "enable_resource_name_dns_aaaa_record_on_launch": false,
             "enable_resource_name_dns_a_record_on_launch": false,
