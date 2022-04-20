@@ -1,0 +1,8 @@
+
+github_environment       = "production"
+github_actions_user_name = "github_actions_user"
+aws_region               = "eu-west-1"
+#common_prefix            = "tf"
+#repo_prefix              = "networking"
+#tfstate_bucket           = "tfstate-networking"
+
