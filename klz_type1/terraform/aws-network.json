@@ -102,7 +102,7 @@
             "tags": {
               "role": "private subnet AZ-1b"
             }
-          },
+          }
         }
       }
     }
