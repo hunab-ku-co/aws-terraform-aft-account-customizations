@@ -19,11 +19,11 @@ terraform {
   }
 }
 
-data "terraform_remote_state" "networking" {
-  backend = "s3"
-  config = {
-    bucket = "tfstate-networking-15160685"
-    key    = "networking.tfstate"
-    region = "eu-west-1"
-  }
-}
+# data "terraform_remote_state" "networking" {
+#   backend = "s3"
+#   config = {
+#     bucket = "tfstate-networking-15160685"
+#     key    = "networking.tfstate"
+#     region = "eu-west-1"
+#   }
+# }
