@@ -20,10 +20,6 @@
             "enable_resource_name_dns_a_record_on_launch": false,
             "private_dns_hostname_type_on_launch": "ip-name",
             "routes": {
-              "route1": {
-                "destination_cidr_block": "10.0.0.0/8",
-                "transit_gateway_id": "tgw-085f17a478f26a2d2"
-              }
             },
             "options": {
               "deploy_route_table": true,
@@ -43,10 +39,6 @@
             "enable_resource_name_dns_a_record_on_launch": false,
             "private_dns_hostname_type_on_launch": "ip-name",
             "routes": {
-              "route1": {
-                "destination_cidr_block": "10.0.0.0/8",
-                "transit_gateway_id": "tgw-085f17a478f26a2d2"
-              }
             },
             "options": {
               "deploy_route_table": true,
@@ -66,10 +58,6 @@
             "enable_resource_name_dns_a_record_on_launch": false,
             "private_dns_hostname_type_on_launch": "ip-name",
             "routes": {
-              "route1": {
-                "destination_cidr_block": "10.0.0.0/8",
-                "transit_gateway_id": "tgw-085f17a478f26a2d2"
-              }
             },
             "options": {
               "deploy_route_table": true,
@@ -89,10 +77,6 @@
             "enable_resource_name_dns_a_record_on_launch": false,
             "private_dns_hostname_type_on_launch": "ip-name",
             "routes": {
-              "route1": {
-                "destination_cidr_block": "10.0.0.0/8",
-                "transit_gateway_id": "tgw-085f17a478f26a2d2"
-              }
             },
             "options": {
               "deploy_route_table": true,
