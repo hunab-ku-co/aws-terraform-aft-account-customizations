@@ -6,5 +6,5 @@ data "aws_ec2_transit_gateway" "tgw" {
 resource "aws_ec2_transit_gateway_vpc_attachment" "tgw_attachment" {
   subnet_ids         = [aws_subnet.subnet[*].id]
   transit_gateway_id = data.aws_ec2_transit_gateway.tgw.id
-  vpc_id             = aws_vpc.vpc[*].klz-type1.id
+  vpc_id             = aws_vpc.vpc["klz-type1"].id
 }
