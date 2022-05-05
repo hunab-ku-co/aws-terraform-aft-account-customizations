@@ -2,12 +2,12 @@
 
 resource "aws_iam_role" "assume_role" {
   name                = "assume_role"
-  assume_role_policy  = aws_iam_policy_document.assume_role.json
+  assume_role_policy  = data.aws_iam_policy_document.assume_role.json
   managed_policy_arns = [aws_iam_policy.assume_role_policy.arn]
 }
 
 # Trust policy
-resource "aws_iam_policy_document" "assume_role" {
+data "aws_iam_policy_document" "assume_role" {
   statement {
     actions = ["sts:AssumeRole"]
     principals {
