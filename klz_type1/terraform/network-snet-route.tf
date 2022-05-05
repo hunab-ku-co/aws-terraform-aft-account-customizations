@@ -36,4 +36,7 @@ resource "aws_route" "route" {
   transit_gateway_id         = each.value.transit_gateway_id
   vpc_endpoint_id            = each.value.vpc_endpoint_id
   vpc_peering_connection_id  = each.value.vpc_peering_connection_id
+  depends_on = [
+    aws_ec2_transit_gateway_vpc_attachment.tgw_attachment
+  ]
 }

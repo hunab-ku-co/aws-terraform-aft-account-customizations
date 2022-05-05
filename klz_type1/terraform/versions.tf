@@ -19,18 +19,3 @@ terraform {
   }
 }
 
-# provider "aws" {
-#   alias      = "aws-networking"
-#   region     = "eu-west-1"
-#   access_key = "my-access-key"
-#   secret_key = "my-secret-key"
-# }
-
-# data "terraform_remote_state" "networking" {
-#   backend = "s3"
-#   config = {
-#     bucket = "tfstate-networking-15160685"
-#     key    = "networking.tfstate"
-#     region = "eu-west-1"
-#   }
-# }
