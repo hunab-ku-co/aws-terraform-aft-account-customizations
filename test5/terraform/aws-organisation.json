@@ -1,0 +1,13 @@
+{
+    "kesko": {
+      "name": "Kesko AWS Foundation",
+      "id": "xyz",
+      "organization_id": "o-5jus9137wh",
+      "regions": {
+        "primary": "eu-west-1",
+        "secondary": "eu-north-1"
+      },
+      "domain": "xyz.internal",
+      "timezone": "Europe/Helsinki"
+    }
+}
