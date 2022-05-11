@@ -50,7 +50,7 @@
             }
           },
           "public-a": {
-            "attach_to_tgw": true,
+            "attach_to_tgw": false,
             "availability_zone": "eu-west-1a",
             "cidr_block": "10.20.2.0/24",
             "enable_dns64": false,
@@ -69,7 +69,7 @@
             }
           },
           "public-b": {
-            "attach_to_tgw": true,
+            "attach_to_tgw": false,
             "availability_zone": "eu-west-1b",
             "cidr_block": "10.20.3.0/24",
             "enable_dns64": false,
