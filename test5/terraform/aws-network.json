@@ -1,0 +1,93 @@
+{
+    "networks": {
+      "test5": {
+        "tags": {
+          "role": "spoke"
+        },
+        "cidr_block": "10.20.0.0/22",
+        "instance_tenancy": "default",
+        "enable_dns_hostnames": true,
+        "enable_dns_support": true,
+        "assign_generated_ipv6_cidr_block": false,
+        "deploy_internet_gateway": true,
+        "subnets": {
+          "private-a": {
+            "attach_to_tgw": false,
+            "availability_zone": "eu-west-1a",
+            "cidr_block": "10.20.0.0/24",
+            "enable_dns64": false,
+            "enable_resource_name_dns_aaaa_record_on_launch": false,
+            "enable_resource_name_dns_a_record_on_launch": false,
+            "private_dns_hostname_type_on_launch": "ip-name",
+            "routes": {
+            },
+            "options": {
+              "deploy_route_table": true,
+              "deploy_nic": false,
+              "network_security_group": false
+            },
+            "tags": {
+              "role": "private subnet AZ-1a"
+            }
+          },
+          "private-b": {
+            "attach_to_tgw": false,
+            "availability_zone": "eu-west-1b",
+            "cidr_block": "10.20.1.0/24",
+            "enable_dns64": false,
+            "enable_resource_name_dns_aaaa_record_on_launch": false,
+            "enable_resource_name_dns_a_record_on_launch": false,
+            "private_dns_hostname_type_on_launch": "ip-name",
+            "routes": {
+            },
+            "options": {
+              "deploy_route_table": true,
+              "deploy_nic": false,
+              "network_security_group": false
+            },
+            "tags": {
+              "role": "private subnet AZ-1b"
+            }
+          },
+          "public-a": {
+            "attach_to_tgw": true,
+            "availability_zone": "eu-west-1a",
+            "cidr_block": "10.20.2.0/24",
+            "enable_dns64": false,
+            "enable_resource_name_dns_aaaa_record_on_launch": false,
+            "enable_resource_name_dns_a_record_on_launch": false,
+            "private_dns_hostname_type_on_launch": "ip-name",
+            "routes": {
+            },
+            "options": {
+              "deploy_route_table": true,
+              "deploy_nic": false,
+              "network_security_group": false
+            },
+            "tags": {
+              "role": "private subnet AZ-1a"
+            }
+          },
+          "public-b": {
+            "attach_to_tgw": true,
+            "availability_zone": "eu-west-1b",
+            "cidr_block": "10.20.3.0/24",
+            "enable_dns64": false,
+            "enable_resource_name_dns_aaaa_record_on_launch": false,
+            "enable_resource_name_dns_a_record_on_launch": false,
+            "private_dns_hostname_type_on_launch": "ip-name",
+            "routes": {
+            },
+            "options": {
+              "deploy_route_table": true,
+              "deploy_nic": false,
+              "network_security_group": false
+            },
+            "tags": {
+              "role": "private subnet AZ-1b"
+            }
+          }
+        }
+      }
+    }
+  }
