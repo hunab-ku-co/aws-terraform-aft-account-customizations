@@ -1,0 +1,15 @@
+{
+    "groups": {
+        "connectivity": {
+            "site": "primary",
+            "tags": {
+                "environment": "development",
+                "role": "networking"
+            },
+            "metadata": {
+                "sap_service": "dev",
+                "role": "dev"
+            }
+        }
+    }
+}
